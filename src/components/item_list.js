@@ -5,10 +5,8 @@ import ListItem from './list_item';
 
 const ItemList = (props) => {
 
-	//console.log(this.props.items);
-
 	const listItems = props.items.map((item) => {
-
+		//return component list of items, pass in product & props
 		return (
 			<ListItem
 				key={item.title}
@@ -19,8 +17,6 @@ const ItemList = (props) => {
 		);
 
 	});
-
-  console.log(listItems);
 
 	return (
 		<div id="buynowbox">

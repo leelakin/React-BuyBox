@@ -3,14 +3,13 @@ import React, {Component} from 'react';
 const ListItem = (props) => {
 
   const prodSelecter = () => {
-  	console.log('prodSelecter triggered!');
   	if (props.selectedItem==props.item.title) {
   		return (
   			<span className="star">&#10023;</span>
   		)
   	}
   }
-
+  //ternary operator to pic className for styling
 	return (
 		<div
 			onClick={props.clickHandler}
