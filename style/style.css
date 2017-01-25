@@ -1,0 +1,85 @@
+
+.buystuff {
+	display: flex;
+	justify-content: center;
+}
+
+#buynowbox {
+	margin-top: 50px;
+	border: 5px solid #000;
+	border-radius: 5px;
+	width: 314px;
+}
+#buynowbox.successbox {
+	font-size: 1.2em;
+	display: flex;
+	border-color: #0c0;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+#buynowbox.successbox .chosen {
+	color: #0c0;
+	background-color: #cfc;
+	width: 100%;
+	text-align: center;
+	padding: 40px 0;
+}
+#buynowbox.successbox .thanks {
+	color: #fff;
+	background-color: #0c0;
+	width: 100%;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: -5px;
+}
+
+#listitems {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-bottom: 5px solid #000;
+	padding: 30px;
+}
+
+.listitem, .checkbox {
+	border: 2px solid #000;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+.listitem {
+	display: inline-flex;
+	align-items: center;
+	min-width: 240px;
+	font-size: 1.1em;
+	background-color: #fff;
+}
+.listitem.selected {
+	background-color: #000;
+	color: #fff;
+}
+
+.checkbox {
+	display: inline-flex;
+	align-items: center;
+	margin: 10px 5px;
+	width: 35px;
+	height: 35px;
+	font-size: 2.1em;
+	vertical-align: center;
+	background-color: #fff;
+	color: #000;
+}
+.product {
+	padding: 5px;
+}
+
+#cta {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	align-items: center;
+	font-weight: bold;
+}
+
