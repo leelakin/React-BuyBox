@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# Buy Box Test
 
 Initial bundle structure setup & dependencies downloaded from Stephen Grider on GitHub
 
